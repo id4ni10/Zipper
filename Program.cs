@@ -22,7 +22,7 @@ public class Program
                     zip.AddEntry(filename, arquivos[filename]);
                 }
 
-                zip.Comment = String.Format("Este arquivo foi gerado por: 'SISGED Capture'\n'{0}'",
+                zip.Comment = String.Format("Este arquivo foi gerado por: 'Person'\n'{0}'",
                    System.Net.Dns.GetHostName());
 
                 var ms = new MemoryStream();
